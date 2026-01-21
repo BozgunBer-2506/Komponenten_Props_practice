@@ -1,0 +1,227 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  color: #2d3436;
+}
+
+* {
+  color: #2d3436;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e1e4e8;
+  margin: 40px 0;
+}
+
+h1 {
+  text-align: center;
+  color: #4834d4 !important;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #2d3436 !important;
+  border-bottom: 2px solid #e1e4e8;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.greeting {
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.greeting h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.greeting p {
+  margin: 0;
+  color: #666 !important;
+}
+
+h3, h4, h5, h6 {
+  color: #2d3436 !important;
+}
+
+p {
+  color: #2d3436 !important;
+}
+
+strong {
+  color: #2d3436 !important;
+}
+
+.ui-card, .product-card {
+  background-color: #ffffff;
+  color: #2d3436 !important;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.ui-card:hover, .product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.ui-card * {
+  color: #2d3436 !important;
+}
+
+.product-card * {
+  color: #2d3436 !important;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+}
+
+.product-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #2d3436 !important;
+  font-size: 1.5rem;
+}
+
+.product-card .description {
+  color: #666 !important;
+  margin: 10px 0;
+}
+
+.product-card .price {
+  font-size: 28px;
+  font-weight: 800;
+  color: #27ae60 !important;
+  margin: 15px 0;
+  display: block;
+}
+
+.product-card .category {
+  display: inline-block;
+  background-color: #0984e3;
+  color: #ffffff !important;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-top: 8px;
+  color: #ffffff !important;
+}
+
+.badge-blue { 
+  background-color: #0984e3;
+}
+
+.badge-green { 
+  background-color: #2ecc71;
+}
+
+.avatar-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #636e72;
+  color: #ffffff !important;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #f1f3f5;
+  color: #495057 !important;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  border: 1px solid #dee2e6;
+  font-weight: 500;
+}
+
+button {
+  color: #ffffff !important;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffffff !important;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:focus {
+  outline: 2px solid #646cff;
+  outline-offset: 2px;
+}
+
+.btn-primary { background: #3498db; color: white !important; }
+.btn-secondary { background: #95a5a6; color: white !important; }
+.btn-success { background: #2ecc71; color: white !important; }
+.btn-danger { background: #e74c3c; color: white !important; }
+
+.btn-small { padding: 6px 12px; font-size: 14px; }
+.btn-medium { padding: 10px 20px; font-size: 16px; }
+.btn-large { padding: 14px 28px; font-size: 18px; }
+
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
