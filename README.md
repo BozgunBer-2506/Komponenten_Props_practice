@@ -14,7 +14,7 @@ This project is a practical implementation of React fundamentals, focusing on:
 
 ## 🚀 Live Demo
 
-View the live application: [Props Demo](https://komponenten-props-practice.vercel.app) *(Add your deployment link)*
+View the live application: [Props Demo](https://komponenten-props-practice.vercel.app)
 
 ## 🛠️ Tech Stack
 
